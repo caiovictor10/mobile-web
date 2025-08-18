@@ -9,5 +9,29 @@ body {
 }
 .container {
     background: pink;
+    max-width: 1064px;
+    margin: 0 auto;
 }
 
+/*criando o Header */
+header {
+    background: greenyellow;
+    /* Altura */
+    height: 130px;
+    border-bottom: 5px solid rgb(247, 245, 240);
+    /* Flexbox*/
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+header h2 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
