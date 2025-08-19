@@ -4,9 +4,7 @@
     list-style: none;
 }
 body {
-    background: slateblue
-
-
+    background: slateblue;
 }
 .container {
     background: darkred;
@@ -58,10 +56,10 @@ header h2 {
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center
+    text-align: center;
     padding: 18px;
 }
-.menu li a: :hover {
+.menu li a {
     text-decoration:underline;
 }
 
@@ -74,4 +72,14 @@ header h2 {
     margin: 20px;
     /* Cortar Imagem */
     overflow: hidden;
+}
+
+/*Content HOME */
+.content-box {
+    margin: 20px;
+    border: 1px solid red;
+}
+.box {
+    border: 1px solid blue;
+    max-width: 300px;
 }
