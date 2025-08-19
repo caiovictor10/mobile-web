@@ -1,24 +1,25 @@
 *{
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 body {
-    background: purple
+    background: slateblue
 
 
 }
 .container {
-    background: pink;
+    background: darkred;
     max-width: 1064px;
     margin: 0 auto;
 }
 
 /*criando o Header */
 header {
-    background: greenyellow;
+    background: gold;
     /* Altura */
     height: 130px;
-    border-bottom: 5px solid rgb(247, 245, 240);
+    border-bottom: 5px solid rgb(7, 5, 0);
     /* Flexbox*/
     display: flex;
     align-items: center;
@@ -30,8 +31,33 @@ header img {
 }
 
 header h2 {
-    color: aliceblue;
+    color: rgb(1, 9, 15);
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 50px;
 
+}
+/* MENU DO SITE*/
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(180, 199, 199);
+}
+.menu li{
+    border: 1px solid red;
+    
+    /*Espaçamentos*/
+    padding: 18px;
+    /* Largura  */
+    max-width: 150px;
+    width: 100%;
+}
+
+.menu li a {
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center
+    padding: 18px;
 }
