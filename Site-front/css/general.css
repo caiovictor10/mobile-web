@@ -61,3 +61,17 @@ header h2 {
     text-align: center
     padding: 18px;
 }
+.menu li a: :hover {
+    text-decoration:underline;
+}
+
+/*BANNER*/
+.banner {
+    max-width: 1000px;
+    height: 250px;
+    border: 10px solid rgb(2, 27, 252);
+    border-radius: 20px;
+    margin: 20px;
+    /* Cortar Imagem */
+    overflow: hidden;
+}
