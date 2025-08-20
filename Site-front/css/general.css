@@ -10,11 +10,14 @@ body {
 }
 
 .container {
-    background: rgb(233, 10, 10);
+    background: rgb(236, 231, 231);
     max-width: 1064px;
     margin: 0 auto;
 }
-
+.title-general h1 {
+    padding-left: 25px;
+    color: orangered;
+}
 /*criando o Header */
 header {
     background: gold;
@@ -73,8 +76,8 @@ header h2 {
 .banner {
     max-width: 1000px;
     height: 250px;
-    border: 10px solid black;
-    border-radius: 10px;
+    border: 5px solid black;
+    border-radius: 30px;
     margin: 20px;
     /*Cortar Imagem*/
     overflow: hidden;
@@ -123,3 +126,19 @@ header h2 {
 .box img{
     border-bottom: 1px solid blue;
 }
+.promocao {
+    
+    /*flexbox*/
+    display: flex;
+    justify-content: center;
+}
+.promocao img {
+     max-width: 800px;
+    height: 180px;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 20px;
+    /*Cortar Imagem*/
+    overflow: hidden;
+}
+
