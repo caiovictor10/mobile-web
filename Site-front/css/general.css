@@ -1,13 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
-    background: slateblue;
+    background: rgb(126, 73, 179);
 }
+
 .container {
-    background: darkred;
+    background: rgb(233, 10, 10);
     max-width: 1064px;
     margin: 0 auto;
 }
@@ -17,7 +20,7 @@ header {
     background: gold;
     /* Altura */
     height: 130px;
-    border-bottom: 5px solid rgb(7, 5, 0);
+    border-bottom: 5px solid gold;
     /* Flexbox*/
     display: flex;
     align-items: center;
@@ -34,6 +37,7 @@ header h2 {
     font-size: 50px;
 
 }
+
 /* MENU DO SITE*/
 .menu {
     display: flex;
@@ -41,9 +45,10 @@ header h2 {
     align-items: center;
     background-color: rgb(180, 199, 199);
 }
-.menu li{
-    border: 1px solid red;
-    
+
+.menu li {
+    border: 3px solid rgb(15, 15, 15);
+
     /*Espaçamentos*/
     padding: 18px;
     /* Largura  */
@@ -55,31 +60,66 @@ header h2 {
     font-size: 23px;
     text-decoration: none;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    
     text-align: center;
     padding: 18px;
 }
+
 .menu li a {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 /*BANNER*/
 .banner {
     max-width: 1000px;
     height: 250px;
-    border: 10px solid rgb(2, 27, 252);
-    border-radius: 20px;
+    border: 10px solid black;
+    border-radius: 10px;
     margin: 20px;
-    /* Cortar Imagem */
+    /*Cortar Imagem*/
     overflow: hidden;
 }
 
 /*Content HOME */
 .content-box {
     margin: 20px;
-    border: 1px solid red;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 10px;
+    /*Flexbox*/
+    display: flex;
 }
+
 .box {
-    border: 1px solid blue;
+    border: 1px solid rgb(6, 22, 243);
     max-width: 300px;
+    border-radius: 10px;
+     /*Cortar Imagem*/
+    overflow: hidden;
+    margin: 10px 35px 20px 15px;
+    /*Sombra*/
+    box-shadow: 2px 3px 3px #d3d3d3;
+}
+
+.container {
+    text-align: center;
+    /* Centraliza o conteúdo horizontalmente */
+}
+.box p {
+    padding: 10px;
+    color: aqua;
+}
+
+.box a {
+    padding: 0 0 10px 10px;
+    display: block;
+    color: rgb(7, 23, 241);
+    text-decoration: none;
+    /*Negrito*/
+    font-weight: bold;
+}
+.box a:hover {
+    text-decoration: underline;
+}
+.box img{
+    border-bottom: 1px solid blue;
 }
