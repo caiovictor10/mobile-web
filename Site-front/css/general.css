@@ -142,3 +142,43 @@ header h2 {
     overflow: hidden;
 }
 
+/*Novidades*/
+.novidades {
+    background-color: rgb(30, 203, 247);
+    margin-top: 20px;
+    /* Flexbox*/
+    display: flex;
+    justify-content: space-around;
+}
+.novidades span {
+    font-size: 150px;
+}
+.novidades article {
+    /* Flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.novidades form {
+    width: 100%;
+}
+.novidades form input{
+    max-width: 400px;
+    padding-left: 10px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid black;
+}
+.novidades form button {
+    border: 1px solid blue;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    color: blue;
+    font-weight: bold;
+}
+    
+
