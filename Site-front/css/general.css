@@ -180,5 +180,15 @@ header h2 {
     color: blue;
     font-weight: bold;
 }
-    
+    footer{
+        background: #000;
+        height: 40px;
+        /*Flexbox*/
+        display: flex;
+        justify-content: center;
+    }
+
+    footer p {
+        color: #fff;
+    }
 
