@@ -20,10 +20,10 @@ body {
 }
 /*criando o Header */
 header {
-    background: gold;
+    background: rgb(243, 53, 5);
     /* Altura */
     height: 130px;
-    border-bottom: 5px solid gold;
+    border-bottom: 5px solid rgb(8, 8, 8);
     /* Flexbox*/
     display: flex;
     align-items: center;
@@ -86,14 +86,14 @@ header h2 {
 /*Content HOME */
 .content-box {
     margin: 20px;
-    border: 1px solid rgb(10, 10, 10);
+    border: 3px solid rgb(10, 10, 10);
     border-radius: 10px;
     /*Flexbox*/
     display: flex;
 }
 
 .box {
-    border: 1px solid rgb(6, 22, 243);
+    border: 3px solid rgb(6, 22, 243);
     max-width: 300px;
     border-radius: 10px;
      /*Cortar Imagem*/
