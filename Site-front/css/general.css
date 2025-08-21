@@ -10,13 +10,13 @@ body {
 }
 
 .container {
-    background: rgb(236, 231, 231);
+    background: rgb(194, 192, 192);
     max-width: 1064px;
     margin: 0 auto;
 }
 .title-general h1 {
     padding-left: 25px;
-    color: orangered;
+    color: rgb(236, 227, 223);
 }
 /*criando o Header */
 header {
@@ -46,7 +46,7 @@ header h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(180, 199, 199);
+    background-color: rgb(238, 233, 228);
 }
 
 .menu li {
@@ -109,7 +109,7 @@ header h2 {
 }
 .box p {
     padding: 10px;
-    color: aqua;
+    color: rgb(43, 240, 240);
 }
 
 .box a {
@@ -144,7 +144,7 @@ header h2 {
 
 /*Novidades*/
 .novidades {
-    background-color: rgb(30, 203, 247);
+    background-color: rgb(152, 155, 155);
     margin-top: 20px;
     /* Flexbox*/
     display: flex;
@@ -186,9 +186,15 @@ header h2 {
         /*Flexbox*/
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     footer p {
         color: #fff;
+    }
+
+    /*Pagina Sobre*/
+    .spaceSobre {
+        margin: 20px 0 20px 0;
     }
 
