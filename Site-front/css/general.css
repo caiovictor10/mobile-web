@@ -22,7 +22,7 @@ header {
     background: white;
     /* Altura */
     height: 130px;
-    border-bottom: 5px solid rgb(8, 8, 8);
+    border-bottom: 5px solid tomato;
     /* Flexbox*/
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@ header h2 {
 }
 
 .menu li {
-    border: 3px solid rgb(15, 15, 15);
+    border: 3px solid tomato;
 
     /*Espaçamentos*/
     padding: 18px;
@@ -77,7 +77,7 @@ header h2 {
 .banner {
     max-width: 1000px;
     height: 250px;
-    border: 5px solid black;
+    border: 5px solid tomato;
     border-radius: 30px;
     margin: 20px;
     /*Cortar Imagem*/
@@ -87,14 +87,14 @@ header h2 {
 /*Content HOME */
 .content-box {
     margin: 20px;
-    border: 3px solid rgb(10, 10, 10);
+    border: 3px solid tomato;
     border-radius: 10px;
     /*Flexbox*/
     display: flex;
 }
 
 .box {
-    border: 3px solid rgb(6, 22, 243);
+    border: 3px solid tomato;
     max-width: 300px;
     border-radius: 10px;
      /*Cortar Imagem*/
@@ -136,7 +136,7 @@ header h2 {
 .promocao img {
      max-width: 800px;
     height: 180px;
-    border: 5px solid black;
+    border: 5px solid tomato;
     border-radius: 30px;
     margin: 20px;
     /*Cortar Imagem*/
@@ -259,4 +259,24 @@ header h2 {
     .form-group-sexo label {
         display: inline-block;
         margin-top: 10px;
+    }
+    legend {
+        padding: 10px;
+        display: inline-block;
+        font-size: 18px;
+    }
+    .form-group-info {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .form-control-padrao {
+        border:  1px solid blueviolet;
+        width: 100%;
+        max-width: 600px;
+        height: 30px;
+        border: 2px solid #bcbaba;
+        outline: none;
+        padding-left: 5px;
+        border-radius: 7px;
     }
