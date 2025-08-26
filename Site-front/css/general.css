@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgb(126, 73, 179);
+    background: MediumSeaGreen;
 }
 
 .container {
@@ -15,11 +15,11 @@ body {
 }
 .title-general h1 {
     padding-left: 25px;
-    color: rgb(241, 77, 6);
+    color: rgb(250, 87, 6);
 }
 /*criando o Header */
 header {
-    background: rgb(243, 53, 5);
+    background: white;
     /* Altura */
     height: 130px;
     border-bottom: 5px solid rgb(8, 8, 8);
@@ -35,7 +35,7 @@ header img {
 }
 
 header h2 {
-    color: rgb(1, 9, 15);
+    color: tomato;
     text-transform: uppercase;
     font-size: 50px;
 
