@@ -1,6 +1,6 @@
 // Duas variaveis
-let num1 = prompt(Digite um numero);
-let num2 = prompt(Digite outro numero);
+let num1 = Number(prompt("Digite um numero"));
+let num2 = Number(prompt("Digite outro numero"));
 
 // Operações
 let soma = num1 + num2;
