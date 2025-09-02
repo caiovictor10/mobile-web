@@ -1,16 +1,24 @@
 // Duas variaveis
-let num1 = Number(prompt("Digite um numero"));
-let num2 = Number(prompt("Digite outro numero"));
+let num1 = 10;
+let num2 = 10;
 
 // Operações
 let soma = num1 + num2;
-let subitrair = num1 - num2;
-let multiplicar = num1 * num2;
-let dividir = num1 / num2;
 
-// Imprimir as respostas
-console.log("Soma", soma);
-console.log("Subtração" , subitrair);
-console.log("Multiplicação" , multiplicar);
-console.log("Divisão" , dividir);
+let subtracao = num1  - num2;
+
+// Funções
+function somar(){
+    console.log(num1 + num2);
+}
+
+// subtração
+    function subtrair(){
+    console.log(num1 - num2);
+    }
+
+  
+
+
+
 
