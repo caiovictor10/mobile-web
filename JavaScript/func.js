@@ -2,24 +2,20 @@ function mostrarNome(nome) {
     document.write(nome);
 }
 
-function pularlinha(nome) {
+function pularlinha() {
     document.write("<br><br>");
 }
 
 // chamar função
 pularlinha();
-mostrarNome("Rodrigo");
+mostrarNome("Rodrigo", 35);
 pularlinha();
-console.log("Minha idade é:" + 35)
 pularlinha();
-console.log("Minha idade é:" + 19)
-mostrarNome("Dudu");
+mostrarNome("Dudu", 19);
 
 //Pular Linha
 pularlinha();
-mostrarNome("Rodrigo");
+mostrarNome("Rodrigo", 35);
 pularlinha();
-console.log("Minha idade é:" + 37)
 pularlinha();
-console.log("Minha idade é:" + 19)
-mostrarNome("Dudu");
+mostrarNome("Dudu", 19);
