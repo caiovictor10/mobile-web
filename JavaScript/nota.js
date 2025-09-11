@@ -1,6 +1,7 @@
 // variaveis
 const inputNota = document.getElementById("nota");
 const resultado = document.getElementById("result");
+const message = document.getElementById("message");
 
 // Função
 function resultadoNotaClick(event) {
@@ -16,6 +17,12 @@ function resultadoNotaClick(event) {
     else {
         resultado.innerHTML = "Reprovado";
     }
+       // Validação de formulário
+   if (inputNota.value == "");{
+   message.style.display = "block";
+   return false;
+   }
+message.style.display = "none";
 }
 
 

@@ -75,4 +75,6 @@ body {
 
 #message span {
     color: red;
-    padding-bottom: 10px;}
+    padding-bottom: 10px;
+display: block;
+}
