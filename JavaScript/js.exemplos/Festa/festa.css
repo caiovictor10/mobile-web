@@ -12,11 +12,11 @@ background: radial-gradient(circle, red, orange, yellow, green, blue, indigo, vi
 .container {
     /*Largura*/
     width: 100%;
-    max-width:450px;
+    max-width:1250px;
     /*Borda*/
-    border: 2px solid white;
+    border: 4px solid white;
     /* Borda arrendondada */
-    border-radius: 15px;
+    border-radius: 30px;
     /* Centralizar minha tela*/
     margin: 40px auto;
 }
