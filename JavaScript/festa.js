@@ -18,11 +18,11 @@ function resultadoIdadeClick(event) {
         resultado.innerHTML = "Acesso negado";
     }
     /*
-Se idade >= 18, a passoa pode ir para festa senão, a pessoa não pode ir para festa
+Se idade >= 18, a passoa pode ir para festa, senão a pessoa não pode ir para festa
 */
 let idade = 18;
 
-if(idade >= 17) {
+if(idade >= 18) {
     console.log("Liberada para a festa");
 }
     else {
