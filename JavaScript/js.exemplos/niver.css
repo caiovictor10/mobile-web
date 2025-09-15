@@ -6,7 +6,7 @@
 body {
   margin: 0;
   height: 100vh;
-background: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
+background: radial-gradient(circle,red, orange, yellow, green, blue, indigo, violet);
 }
 
 .container form {
@@ -68,3 +68,4 @@ background: radial-gradient(circle, red, orange, yellow, green, blue, indigo, vi
     padding-bottom: 10px;
 display: block;
 }
+
