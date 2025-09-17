@@ -17,15 +17,9 @@ if (email === "") {
 
 // Validação simples: tem @ e . 
 if (!email.includes("@") || !email.includes(".")) {
-alert("Email invalido. Tente novamente");
-    return;
 
-}
-
-alert("Email cadastrado com sucesso!✅")
-
+    }
 
 // Limpa o campo
 form.reset();
-
 });
