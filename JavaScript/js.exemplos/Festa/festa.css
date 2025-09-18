@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+background: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.container {
+    /*Largura*/
+    width: 100%;
+    max-width:1250px;
+    /*Borda*/
+    border: 4px solid white;
+    /* Borda arrendondada */
+    border-radius: 30px;
+    /* Centralizar minha tela*/
+    margin: 40px auto;
+}
+
+.container form {
+    /*Flexbox*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control input {
+    /*Espaçamento entre os elementos*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /*Efeito colateral do navegador*/
+    outline: none;
+    /*Espaçamento dentro do elemento*/
+    padding: 5px;
+}
+
+.form-control label {
+    /* Espaçamento entre os elementos */
+    margin-top: 30px;
+    color: #fff;
+    display: block;
+}
+
+#verifica-idade {
+    /* Cor do fundo */
+    background: #191970;
+    /* Borda do Botão */
+    border: 1px solid white;
+    /*Cor de texto */
+    color: #fff;
+    /*Espaçamento dentro do elemento */
+    padding: 5px;
+    /* Espaçamento fora do elemento */
+    margin-bottom: 10px;
+    /* Cursor mãozinha */
+    cursor: pointer;
+    transition: all 0.9s;
+}
+
+#verifica-idade:hover {
+    background-color: rgb(232, 229, 229);
+    color: #dcdce2;
+}
+
+#result {
+    color: #f01212;
+    margin-bottom: 10px;
+}
+
+#message {
+    display: none;
+}
+
+#message span {
+    color: red;
+    padding-bottom: 10px;
+display: block;
+}
