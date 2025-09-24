@@ -1,14 +1,14 @@
-import Contador from "./componentes/Contador"
+import "./App.css"
+import Header from "./Header"
 
 function App() {
+    return (
+        <main className="container">
 
+            <Header title="Meu site"/>
 
-  return (
-   <>
-   <Contador/>
-   
-  </>
-  )
+        </main>
+    )
 }
 
 export default App
