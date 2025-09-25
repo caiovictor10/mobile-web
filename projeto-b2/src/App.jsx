@@ -1,6 +1,7 @@
-import Banner from "./componentes/Contador/Banner"
-import ImgCard from "./componentes/imgCard"
-import Header from "./Header"
+import Banner from "./componentes/Contador/Banner";
+import Header from "./Header";
+import ImgCard from "./componentes/imgCard";
+import Button from  "./componentes/Button";
 import "./App.css";
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
 
             </Banner>
 
-            <ImgCard />
+            <ImgCard caption="Uma imagem interessante"/>
+            <Button text="Clique aqui"/>
 
         </main>
     )
