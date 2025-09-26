@@ -1,10 +1,16 @@
 import Banner from "./componentes/Contador/Banner";
-import Header from "./Header";
+import Header from "./componentes/Header";
 import ImgCard from "./componentes/imgCard";
 import Button from  "./componentes/Button";
+import img1 from "./assets/img-card1.jpg";
+import img2 from "./assets/img-card2.jpg";
+import img3 from "./assets/img-card3.jpg";
 import "./App.css";
 
 function App() {
+    const handleClick = ()=> {
+
+    }
     return (
         <main className="container">
 
@@ -16,8 +22,20 @@ function App() {
 
             </Banner>
 
-            <ImgCard caption="Uma imagem interessante"/>
-            <Button text="Clique aqui"/>
+            <ImgCard caption="Uma imagem interessante" 
+            imagem={img1}
+            texto="Lorem ipsum Popeto"/>
+            
+
+             <ImgCard caption="Popeto" 
+             imagem={img2}
+             texto="Popeto New"/>
+
+               <ImgCard caption="Caio do Futebol" 
+               imagem={img3}
+               texto= "Popeto Popeto LDU"/>
+
+                        <Button text="Clique aqui" onclick={handleClick}/>
 
         </main>
     )
