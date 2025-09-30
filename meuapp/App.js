@@ -1,15 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native';
+import Prime from './src/Telas/Prime';
 
 export default function App() {
   return (
-    <View >
-      <Text>teste popeto</Text>
+    <>
+    <View>
+        <Prime/>
     </View>
+    </>
   );
 }
-
-const styles = StyleSheet.create({
-  width: "100%",
-  heigth: 150, 
-  backgroundColor: "blue" 
-});
