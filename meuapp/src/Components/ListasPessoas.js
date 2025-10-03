@@ -1,4 +1,4 @@
-import {Text, View} from 'react-native'
+import {Text, View, StyleSheet} from 'react-native'
 
 export default function ListasPessoas() {
     const pessoas = [
@@ -25,8 +25,36 @@ export default function ListasPessoas() {
     ];
   return (
     
-    <View>
-        <Text>Teste teste</Text>
+    <View style={estilos.container}>
+        <Text style={estilos.titulo}>Teste teste</Text>
+
+        {pessoas.map((pessoa)=>( 
+            <View>
+                <Text>{pessoa.nome}</Text>
+                <Text>{pessoa.idade}</Text>
+                </View>
+        ))}
     </View>
   )
 }
+
+const estilos = StyleSheet.create({
+    container: {
+        padding:20,
+        marginTop: 40,
+    },
+    titulo:{
+        fontSize: 22,
+        fontWeight: 'bold',
+        marginBottom: 15,
+        textAlign: 'center'
+    },
+    card: {
+        backgroundColor: "blue",
+        padding: 15,
+        borderRadius: 10,
+        borderColor: "red",
+        borderWidth: 1,
+        marginBotton: 10,
+    }
+})
