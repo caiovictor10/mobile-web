@@ -1,47 +1,48 @@
 import { Text, View, StyleSheet, FlatList } from 'react-native'
 
 export default function ListasCursos() {
-    const data = ["React Native", "Mongo DB", "Express", "Node.js", "C#"];
-
-  return (
+    const data = ["React Native", "IA Regenerativa","Express", "Node.js","Power BI"];
+    return (
   <View style={estilos.container}>
-<FlatList 
-      data={data}
-      renderItem={({item}) => (
-        <View style={estilos.lastItem}>
-      <Text style={estilos.bullet}>• </Text>
-      <Text style={estilos.text}>{item}</Text>
-      
-      </View>
-)}
-  />
-  </View>
-  )
+    <FlatList 
+    data={data}
+    renderItem={({item})=> (
+    <View style={estilos.lastItem}>
+        <Text style={estilos.bullet}>• </Text>
+        <Text style={estilos.text}>{item} </Text>
 
+    </View>   
+)}
+    />
+</View>
+  )
 }
 
-const estilos = StyleSheet.create({
-    container: {
-        marginTop: 40,
-        padding: 20,
+const estilos= StyleSheet.create({
+    container: { 
+        marginTop: 1,
+        padding: 10, 
+        
     },
-    lastItem: {
-        flexDirection: "row",
-        alignItems: "center",
-        marginBottom: 8,
-        padding: 12,
-        backgroundColor: "#ff00aa",
-        borderWidth: 3,
-        borderColor: "bluelight",
-        borderRadius: 20,
-        elevation: 10,
-    },
-    bullet: {
-        fontSize: 15,
-        marginRight: 6,
-    
-    },
-    text: {
-        fontSize: 16,
-    }
+lastItem: { 
+    flexDirection: "row",
+    alignItems:"center",
+    marginBottom: 5,   
+    padding: 12,
+    backgroundColor: "#ff00aa",
+    borderWidth: 3,
+    borderColor: "rgba(25, 25, 221, 1)",
+    borderRadius: 50,
+    elevation: 10,
+},
+
+bullet: { 
+    fontSize: 20,
+    marginRight: 8,
+},
+
+text: {
+    fontSize: 16,
+},
+
 })
