@@ -1,4 +1,3 @@
-import React from 'react'
 import {StyleSheet, Text, View} from 'react-native'
 
 export default function Header() {
@@ -14,14 +13,17 @@ const estilos = StyleSheet.create({
 
         width:'100%',
         height: 120,
-        backgroundColor: "#d7d7de"
+        backgroundColor: "#d7d7de",
+        borderBottomColor: "#9c9ca1ff",
+        borderBottomWidth: 3,
     },
     tituloHeader: {
         width: "100%",
         textAlign: 'center',
         color: '#ff7b00ff',
-        fontWeight: "bolt",
+        fontWeight: "bold",
         fontSize: 25,
         padding: 40,
     }
+
 });
