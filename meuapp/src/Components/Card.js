@@ -3,6 +3,7 @@ import { Button, StyleSheet, Text, View } from 'react-native'
 export default function Card() {
     return (
         <View style={estilos.container}>
+            
             <Text style={estilos.cardTitle}>Sobre</Text>
             <Text style={estilos.cardContent}>Saiba mais sobre nós</Text>
             <Button
@@ -16,22 +17,22 @@ export default function Card() {
 
 const estilos = StyleSheet.create({
     container: {
-        setStatusBarBackgroundColor: "#ff0000ff",
+        backgroundColor: "#c0c0c0",
         borderRadiuss: 1.41,
-        shadowColor: 'blue',
-        shadowOpacity: 0.2,
+        shadowColor: "#0000",
+        shadowOpacity: 0.5,    
         elevation: 2,
         padding: 15,
-        margin: 20
+        margin: 20,
     },
     cardTitle: {
-        fontSize: 18,
+        fontSize: 20,
         fontWeigth: "bold",
         marginBottom: 10,
     },
     cardContent: {
-        fontSize: 14,
-        marginBottom: 10
+        fontSize: 30,
+        marginBottom: 15,
 
     },
 
