@@ -1,0 +1,33 @@
+{
+    "contatos": [
+        {
+            "id": "1",
+            "nome": "João Silva",
+            "telefone": "(11) 97878-7878"
+        },
+        {
+             "id": "2",
+            "nome": "Popeto",
+            "telefone": "(11) 96568-7451"
+        }
+    ],
+    "faq": [
+        {
+            "id": "1",
+            "pergunta": "O que é JSON Server?",
+            "resposta": "JSON Server é uma ferramenta que permite criar uma API RESTful falsa usando um arquivo JSON como banco de dados."
+        },
+         {
+            "id": "3",
+            "pergunta": "O Palmeiras tem mundial?",
+            "resposta": "51 é pinga"
+         },
+          {
+            "id": "41",
+            "pergunta": "Quem foi o primiro ser humano?",
+            "resposta": "Adão"
+          }
+        
+        
+    ]
+}
