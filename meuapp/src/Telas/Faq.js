@@ -5,7 +5,8 @@ export default function Faq() {
     return (
         <View>
 
-            <Text style={estilos.top}>Dúvidas?</Text>
+            <Text style={estilos.top}>Dúvidas?
+            </Text>
             <Text style={estilos.tituloHeader}>Fale conosco</Text>
             <Text style={estilos.button}>Ligue Agora</Text> 
         </View>
@@ -18,8 +19,8 @@ const estilos = StyleSheet.create({
     top: {
         width: "100%",
         height: 120,
-        backgroundColor: "#0095ffff",
-        borderColor: "#002200",
+        backgroundColor: "#838688ff",
+        borderColor: "#cde92eff",
         textAlign: 'center',
         borderWidth: 10,
         margin: 5,
@@ -27,9 +28,10 @@ const estilos = StyleSheet.create({
     tituloHeader: {
         borderWidth: 10,
         width: "100%",
+        backgroundColor: "#838688ff",
         textAlign: 'center',
 
-        color: "#2c1e7bff",
+        color: "#e4f044ff",
         fontWeight: "bold",
         fontSize: 25,
         padding: 40,
@@ -40,7 +42,7 @@ const estilos = StyleSheet.create({
         textAlign: 'center', 
         fontStyle: 'italic',
         fontSize: 30, 
-        color: "#006effff"
+        color: "#18191aff"
     },
 
 });
