@@ -9,6 +9,12 @@
              "id": "2",
             "nome": "Popeto",
             "telefone": "(11) 96568-7451"
+            },
+            
+            {
+                 "id": "5",
+            "nome": "Ameba",
+            "telefone": "(11) 96568-3030"
         }
     ],
     "faq": [
@@ -27,6 +33,7 @@
             "pergunta": "Quem foi o primiro ser humano?",
             "resposta": "Adão"
           }
+          
         
         
     ]

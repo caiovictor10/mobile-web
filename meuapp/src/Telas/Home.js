@@ -1,5 +1,6 @@
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation, View } from '@react-navigation/native';
 import Card from "../Components/Card"
+import { View } from 'react-native/types_generated/index';
 
 export default function Home() {
   const navigation = useNavigation();
