@@ -20,7 +20,7 @@ const estilos = StyleSheet.create({
     tituloHeader: {
         width: "100%",
         textAlign: 'center',
-        color: '#ffd700',
+        color: '#7FFFD4',
         fontWeight: "bold",
         fontSize: 25,
         padding: 40,

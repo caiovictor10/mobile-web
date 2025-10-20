@@ -1,63 +1,90 @@
-import React, { useEffect, useState } from 'react'
-import { Text, View } from 'react-native'
-import axios  from 'axios';
+import React, { useEffect, useState } from 'react';
+import { Text, View, StyleSheet, FlatList } from 'react-native';
+import axios from 'axios';
 
 export default function ListaContatos() {
-    const[contatos, setContatos] = useState([]);
+  const [contatos, setContatos] = useState([]);
 
-    // função para buscar contatos do servidor
-    const listaContatos = () => {
-        axios
-        .get("http://10.0.2.2:3000/contatos")
-        .then((resposta) => {
-            setContatos(resposta.data)
-        })
-        .catch((error)=>{
-            console.error("Erro ao buscar contatos", error);
-    });
-    }  
+  // Função para buscar contatos do servidor
+  const buscarContatos = () => {
+    axios
+      .get("http://10.0.2.2:3000/contatos")
+      .then((resposta) => {
+        setContatos(resposta.data);
+      })
+      .catch((error) => {
+        console.error("Erro ao buscar contatos", error);
+      });
+  };
 
-    // Use o useEffect para buscar dados
-    useEffect(()=>{
-        listaContatos();
-
-    },[])
+  // UseEffect para carregar os dados ao iniciar
+  useEffect(() => {
+    buscarContatos();
+  }, []);
 
   return (
-<View style={ estilos.top}>
-    <Text>Lista Contatos</Text>
-    {contatos.length > 0 ? (
-     contatos.map((contato, index) => (
-      <View key={index}>
-        <Text>{contato.nome}</Text>
-        <Text>{contato.telefone}</Text>
-      </View>
+    <View style={estilos.container}>
+      <Text style={estilos.tituloHeader}>📱 Lista de Contatos</Text>
 
-     ))
-    ) : (
-      <Text>Nenhum contato disponivel</Text>
+      {contatos.length > 0 ? (
+        <FlatList
+          data={contatos}
+          keyExtractor={(item, index) => index.toString()}
+          renderItem={({ item }) => (
+            <View style={estilos.cardContato}>
+              <Text style={estilos.textName}>{item.nome}</Text>
+              <Text style={estilos.textNum}>{item.telefone}</Text>
+            </View>
+          )}
+        />
+      ) : (
+        <Text style={estilos.mensagem}>Nenhum contato disponível</Text>
       )}
     </View>
-  )
+  );
 }
-const estilos = StyleSheet.create({ 
-    top: {
-        backgroundColor: "#556600", 
-        width:"auto",
-        textAlign:"center",
-        padding: 10,
-        borderColor: "rgba(255, 0, 0, 1)",
-        borderWidth: 5, 
 
-    }, 
-    tituloHeader: {
-         
-      }, 
-    container: { 
-      
-      },
-
-    })
-
-
-        
+const estilos = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#F2F2F2",
+    padding: 16,
+  },
+  tituloHeader: {
+    fontSize: 22,
+    fontWeight: "bold",
+    textAlign: "center",
+    color: "#FFFFFF",
+    backgroundColor: "#7FFFD4",
+    paddingVertical: 12,
+    borderRadius: 8,
+    marginBottom: 16,
+  },
+  cardContato: {
+    backgroundColor: "#FFFFFF",
+    borderRadius: 8,
+    padding: 12,
+    marginVertical: 6,
+    borderWidth: 1,
+    borderColor: "#CCCCCC",
+    shadowColor: "#000",
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 2,
+  },
+  textName: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#333333",
+  },
+  textNum: {
+    fontSize: 16,
+    color: "#666666",
+  },
+  mensagem: {
+    textAlign: "center",
+    marginTop: 20,
+    fontSize: 16,
+    color: "#888888",
+  },
+});

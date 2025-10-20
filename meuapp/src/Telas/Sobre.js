@@ -13,15 +13,15 @@ export default function Sobre() {
   return ( 
     <ScrollView style={estilos.container}>  
       <Text>Sobre</Text>  
-      <Text style={estilos.titulo}>Uniformes ecológicos</Text>  
+      <Text style={estilos.titulo}>🚵Uniformes ecológicos</Text>  
 
       <Image source={Image1} style={estilos.image} />  
       <View style={estilos.line} /> 
-       <Text style={estilos.titulo}>Vestuario para praia</Text>
+       <Text style={estilos.titulo}>🏊Vestuario para praia</Text>
 
       <Image source={Image2} style={estilos.image} />  
       <View style={estilos.line} />
-       <Text style={estilos.titulo}>Roupas para todos os gostos</Text>
+       <Text style={estilos.titulo}>🤾Roupas para todos os gostos</Text>
       <View style={estilos.line} />
 
       <Image source={Image3} style={estilos.image} />
