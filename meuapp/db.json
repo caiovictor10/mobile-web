@@ -2,19 +2,19 @@
     "contatos": [
         {
             "id": "1",
-            "nome": "João Silva",
-            "telefone": "(11) 97878-7878"
+            "nome": "😀João Silva",
+            "telefone": " 📞(11) 97878-7878"
         },
         {
              "id": "2",
-            "nome": "Popeto",
-            "telefone": "(11) 96568-7451"
+            "nome": "😀Popeto",
+            "telefone": " 📞(11) 96568-7451"
             },
             
             {
                  "id": "5",
-            "nome": "Ameba",
-            "telefone": "(11) 96568-3030"
+            "nome": "😀Ameba",
+            "telefone": " 📞(11) 96568-3030"
         }
     ],
     "faq": [
@@ -30,7 +30,7 @@
          },
           {
             "id": "41",
-            "pergunta": "Quem foi o primiro ser humano?",
+            "pergunta": "Quem foi o primeiro ser humano?",
             "resposta": "Adão"
           }
           

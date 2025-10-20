@@ -19,13 +19,14 @@ export default function Card(props) {
 
 const estilos = StyleSheet.create({
     container: {
-        backgroundColor: "#c0c0c0",
+        backgroundColor: "#585555ff",
         borderRadiuss: 1.41,
         shadowColor: "#0000",
         shadowOpacity: 0.5,    
         elevation: 2,
         padding: 15,
         margin: 20,
+        
     },
     cardTitle: {
         fontSize: 20,

@@ -24,7 +24,7 @@ export default function ListaContatos() {
     },[])
 
   return (
-<View>
+<View style={ estilos.top}>
     <Text>Lista Contatos</Text>
     {contatos.length > 0 ? (
      contatos.map((contato, index) => (
@@ -40,3 +40,24 @@ export default function ListaContatos() {
     </View>
   )
 }
+const estilos = StyleSheet.create({ 
+    top: {
+        backgroundColor: "#556600", 
+        width:"auto",
+        textAlign:"center",
+        padding: 10,
+        borderColor: "rgba(255, 0, 0, 1)",
+        borderWidth: 5, 
+
+    }, 
+    tituloHeader: {
+         
+      }, 
+    container: { 
+      
+      },
+
+    })
+
+
+        

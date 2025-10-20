@@ -14,7 +14,7 @@ const estilos = StyleSheet.create({
         width:'100%',
         height: 120,
         backgroundColor: "#c0c0c0",
-        borderBottomColor: "#000000",
+        borderBottomColor: "#0e0d0dff",
         borderBottomWidth: 5,
     },
     tituloHeader: {

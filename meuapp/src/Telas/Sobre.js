@@ -13,18 +13,19 @@ export default function Sobre() {
   return ( 
     <ScrollView style={estilos.container}>  
       <Text>Sobre</Text>  
-      <Text style={estilos.titulo}>Sobre o App</Text>  
+      <Text style={estilos.titulo}>Uniformes ecológicos</Text>  
 
       <Image source={Image1} style={estilos.image} />  
       <View style={estilos.line} /> 
+       <Text style={estilos.titulo}>Vestuario para praia</Text>
 
       <Image source={Image2} style={estilos.image} />  
       <View style={estilos.line} />
-
-      <Text style={estilos.title}>Desenvolvido por:</Text>
+       <Text style={estilos.titulo}>Roupas para todos os gostos</Text>
       <View style={estilos.line} />
 
       <Image source={Image3} style={estilos.image} />
+       <Text style={estilos.titulo}></Text>
 
       <Text>Nome: {info.nomeApp}</Text>
       <Text>Versão: {info.versao}</Text>
@@ -36,7 +37,7 @@ export default function Sobre() {
 const estilos = StyleSheet.create({
   container: {
     padding: 80, 
-    backgroundColor: '#fff',
+    backgroundColor: '#ecdcdcff',
   }, 
   title: { 
     fontSize: 24, 
@@ -52,13 +53,13 @@ const estilos = StyleSheet.create({
     width: 200, 
     height: 200, 
     borderRadius: 100,  
-    borderColor: "red", 
-    borderWidth: 2, 
+    borderColor: "#00FA9A", 
+    borderWidth: 5, 
   },  
   line: {  
     width: "80%",  
-    height: 1, 
-    backgroundColor: "red", 
-    marginVertical: 10, 
+    height: 5, 
+    backgroundColor: "#00FA9A", 
+    marginVertical: 20, 
   },
 });

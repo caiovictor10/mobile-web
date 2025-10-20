@@ -10,19 +10,19 @@ export default function Home() {
     <View>
         <Card 
           title="Sobre"
-          content="Saiba mais sobre nós e nossos serviços."
+          content="💻Saiba mais sobre nós e nossos serviços"
           textButton="Ir para Sobre *"
           onPress={ () => navigation.navigate('Sobre') }
         />
         <Card
           title="Faq"
-          content="Saiba mais Faq"
-          textButton="Ir para Faq"
+          content="🎓Saiba mais"
+          textButton= "Ir para Faq"
           onPress={ () => navigation.navigate('Faq') }
         />
             <Card
           title="Lista Contatos"
-          content="Lista de contatos cadastrados"
+          content= "📝 Lista de contatos"
           textButton="Ir para Lista"
           onPress={ () => navigation.navigate('ListaContatos') }
         />

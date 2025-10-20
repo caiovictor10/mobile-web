@@ -1,18 +1,17 @@
-import React from 'react'
-import { Text, View, StyleSheet, ScrollView} from 'react-native'
+import { Text, View, StyleSheet} from 'react-native'
 
 export default function Faq() {
     return (
         <View>
 
-            <Text style={estilos.top}>Dúvidas?
+            <Text style={estilos.top}>Dúvidas? 	📌
             </Text>
-            <Text style={estilos.tituloHeader}>Fale conosco</Text>
-            <Text style={estilos.button}>Ligue Agora</Text> 
+            <Text style={estilos.tituloHeader}>Fale conosco 📢</Text>
+            <Text style={estilos.button}>Ligue Agora 📞</Text> 
         </View>
             
         
-    )
+)
 }
 
 const estilos = StyleSheet.create({ 
@@ -20,7 +19,7 @@ const estilos = StyleSheet.create({
         width: "100%",
         height: 120,
         backgroundColor: "#838688ff",
-        borderColor: "#cde92eff",
+        borderColor: "#00FA9A",
         textAlign: 'center',
         borderWidth: 10,
         margin: 5,
@@ -28,10 +27,10 @@ const estilos = StyleSheet.create({
     tituloHeader: {
         borderWidth: 10,
         width: "100%",
-        backgroundColor: "#838688ff",
+        backgroundColor: "black",
         textAlign: 'center',
 
-        color: "#e4f044ff",
+        color: "#00FA9A",
         fontWeight: "bold",
         fontSize: 25,
         padding: 40,
@@ -42,7 +41,7 @@ const estilos = StyleSheet.create({
         textAlign: 'center', 
         fontStyle: 'italic',
         fontSize: 30, 
-        color: "#18191aff"
+        color: "#00FA9A"
     },
 
 });
