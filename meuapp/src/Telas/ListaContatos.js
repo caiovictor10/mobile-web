@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Text, View, StyleSheet, FlatList } from 'react-native';
+import { Text, View, StyleSheet, FlatList, Alert } from 'react-native';
 import axios from 'axios';
+import { Button } from 'react-native/types_generated/index';
 
 export default function ListaContatos() {
   const [contatos, setContatos] = useState([]);
@@ -40,6 +41,10 @@ export default function ListaContatos() {
       ) : (
         <Text style={estilos.mensagem}>Nenhum contato disponível</Text>
       )}
+      <Button
+      title="Excluir"
+      onpress={()=> Alert.alert('Aviso','Você clicou no botão')}
+      />
     </View>
   );
 }

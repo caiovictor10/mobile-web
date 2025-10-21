@@ -12,8 +12,8 @@ export default function Sobre() {
 
   return ( 
     <ScrollView style={estilos.container}>  
-      <Text>Sobre</Text>  
       <Text style={estilos.titulo}>🚵Uniformes ecológicos</Text>  
+    
 
       <Image source={Image1} style={estilos.image} />  
       <View style={estilos.line} /> 
