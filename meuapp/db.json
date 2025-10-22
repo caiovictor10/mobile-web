@@ -1,40 +1,37 @@
 {
-    "contatos": [
-        {
-            "id": "1",
-            "nome": "😀João Silva",
-            "telefone": " 📞(11) 97878-7878"
-        },
-        {
-             "id": "2",
-            "nome": "😀Popeto",
-            "telefone": " 📞(11) 96568-7451"
-            },
-            
-            {
-                 "id": "5",
-            "nome": "😀Ameba",
-            "telefone": " 📞(11) 96568-3030"
-        }
-    ],
-    "faq": [
-        {
-            "id": "1",
-            "pergunta": "O que é JSON Server?",
-            "resposta": "JSON Server é uma ferramenta que permite criar uma API RESTful falsa usando um arquivo JSON como banco de dados."
-        },
-         {
-            "id": "3",
-            "pergunta": "O Palmeiras tem mundial?",
-            "resposta": "51 é pinga"
-         },
-          {
-            "id": "41",
-            "pergunta": "Quem foi o primeiro ser humano?",
-            "resposta": "Adão"
-          }
-          
-        
-        
-    ]
+  "contatos": [
+    {
+      "id": "1",
+      "nome": "😀João Silva",
+      "telefone": " 📞(11) 97878-7878"
+    },
+    {
+      "id": "2",
+      "nome": "😀Popeto",
+      "telefone": " 📞(11) 96568-7451"
+    },
+    {
+      "id": "12",
+      "nome": "😀Vanessa",
+      "telefone": " 📞(11) 96568-1144"
+    }
+  ],
+  
+  "faq": [
+    {
+      "id": "1",
+      "pergunta": "O que é JSON Server?",
+      "resposta": "JSON Server é uma ferramenta que permite criar uma API RESTful falsa usando um arquivo JSON como banco de dados."
+    },
+    {
+      "id": "3",
+      "pergunta": "O Palmeiras tem mundial?",
+      "resposta": "51 é pinga"
+    },
+    {
+      "id": "41",
+      "pergunta": "Quem foi o primeiro ser humano?",
+      "resposta": "Adão"
+    }
+  ]
 }

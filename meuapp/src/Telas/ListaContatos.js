@@ -81,7 +81,7 @@ const estilos = StyleSheet.create ({
     padding: 20,
     margin: 20
   },
-    containe: {
+    container: {
     backgroundColor: "#ffd6d6ff",
     borderRadius: 1.41,
     shadowColor: 'red',
@@ -92,7 +92,7 @@ const estilos = StyleSheet.create ({
   },
   titulo: {
     textAlign: 'center',
-    fontSize: 50,
+    fontSize: 20,
     color: "red",
     backgroundColor: "#ffa6a6ff"
   },
