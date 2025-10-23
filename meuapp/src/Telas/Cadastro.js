@@ -65,13 +65,13 @@ const estilos = StyleSheet.create({
         borderColor: "#ccc",
         padding: 10,
         marginBottom: 20,
-        borderRadius: 5,
+        borderRadius: 50,
         backgroundColor: "#fff"
     },
     button: {
         backgroundColor: "#007bff",
         padding: 12,
-        borderRadius: 8,
+        borderRadius: 50,
         alignItems: "center"
     },
     titleButton: {
