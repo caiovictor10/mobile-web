@@ -11,7 +11,7 @@ export default function Home() {
         <Card 
           title="Sobre"
           content="💻Saiba mais sobre nós e nossos serviços"
-          textButton="Ir para Sobre *"
+          textButton="Ir para Sobre"
           onPress={ () => navigation.navigate('Sobre') }
         />
         <Card

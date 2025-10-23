@@ -82,7 +82,7 @@ const estilos = StyleSheet.create ({
     margin: 20
   },
     container: {
-    backgroundColor: "#ffd6d6ff",
+    backgroundColor: "#a79f9fff",
     borderRadius: 1.41,
     shadowColor: 'red',
     shadowOpacity: 20,
@@ -93,22 +93,22 @@ const estilos = StyleSheet.create ({
   titulo: {
     textAlign: 'center',
     fontSize: 20,
-    color: "red",
-    backgroundColor: "#ffa6a6ff"
+    color: "black",
+    backgroundColor: "#898999ff"
   },
   nome: {
     textAlign: 'center',
     fontSize: 30,
-    backgroundColor: "#ffd6d6ff",
+    backgroundColor: "#9190a5ff",
   },
   telefone: {
     textAlign: 'center',
     fontSize: 25,
-    backgroundColor: "#ffd6d6ff",
+    backgroundColor: "#9190a5ff",
   },
   imagem: {
     textAlign: 'center',
     fontSize: 100,
-    backgroundColor: "#ffd6d6ff",
+    backgroundColor: "#9190a5ff",
   }
 })

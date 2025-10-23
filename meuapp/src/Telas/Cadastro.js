@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button, Text, View, TextInput, StyleSheet, Alert } from 'react-native'
+import { Button, Text, View, TextInput, StyleSheet, Alert, Touchable, TouchableOpacity } from 'react-native'
 import axios from 'axios';
 import { useNavigation } from '@react-navigation/native';
 
@@ -43,7 +43,11 @@ export default function Cadastro() {
                 placeholder="Digite o telefone"
             />
 
-            <Button title="Cadastrar" onPress={enviarContato} />
+            {/* </*Button title="Cadastrar" onPress={enviarContato} /> */}
+
+            <TouchableOpacity style={estilos.button} onPress={enviarContato}>
+                <Text style={estilos.titleButton}>Clique aqui</Text>
+            </TouchableOpacity>
         </View>
     )
 }
@@ -63,5 +67,17 @@ const estilos = StyleSheet.create({
         marginBottom: 20,
         borderRadius: 5,
         backgroundColor: "#fff"
+    },
+    button: {
+        backgroundColor: "#007bff",
+        padding: 12,
+        borderRadius: 8,
+        alignItems: "center"
+    },
+    titleButton: {
+        color: "#000",
+        fontSize: 20,
+        fontWeight: "bold"
     }
-})
+});
+

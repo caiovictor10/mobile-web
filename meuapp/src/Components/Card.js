@@ -19,7 +19,7 @@ export default function Card(props) {
 
 const estilos = StyleSheet.create({
     container: {
-        backgroundColor: "#585555ff",
+        backgroundColor: "#cfceceff",
         borderRadiuss: 1.41,
         shadowColor: "#0000",
         shadowOpacity: 0.5,    

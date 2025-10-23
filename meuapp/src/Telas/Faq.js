@@ -19,7 +19,7 @@ const estilos = StyleSheet.create({
         width: "100%",
         height: 120,
         backgroundColor: "#838688ff",
-        borderColor: "#00FA9A",
+        borderColor: "#bec5c2ff",
         textAlign: 'center',
         borderWidth: 10,
         margin: 5,
@@ -30,7 +30,7 @@ const estilos = StyleSheet.create({
         backgroundColor: "black",
         textAlign: 'center',
 
-        color: "#00FA9A",
+        color: "#e5eeeaff",
         fontWeight: "bold",
         fontSize: 25,
         padding: 40,
@@ -41,7 +41,7 @@ const estilos = StyleSheet.create({
         textAlign: 'center', 
         fontStyle: 'italic',
         fontSize: 30, 
-        color: "#00FA9A"
+        color: "#0b0c0bff"
     },
 
 });
