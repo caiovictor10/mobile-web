@@ -6,6 +6,7 @@ import Sobre from './src/Telas/Sobre';
 import Faq from './src/Telas/Faq';
 import ListaContatos from './src/Telas/ListaContatos';
 import Cadastro from './src/Telas/Cadastro';
+import Produtos from './src/Telas/Produtos';
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +19,7 @@ export default function MainNavigator() {
           <Stack.Screen name="Faq" component={Faq} />
              <Stack.Screen name="ListaContatos" component={ListaContatos} />
              <Stack.Screen name="Cadastro" component={Cadastro} />
+             <Stack.Screen name="Produtos" component={Produtos} />
 
         </Stack.Navigator>
         </NavigationContainer>

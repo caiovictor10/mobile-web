@@ -1,13 +1,12 @@
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation, } from '@react-navigation/native';
 import Card from "../Components/Card"
-import { View } from 'react-native';
-
+import { ScrollView} from 'react-native';
 
 export default function Home() {
   const navigation = useNavigation();
 
   return (
-    <View>
+    <ScrollView>
         <Card 
           title="Sobre"
           content="💻Saiba mais sobre nós e nossos serviços"
@@ -34,10 +33,11 @@ export default function Home() {
         />
          <Card
           title="Produtos"
-          content= "💻 Lista de produtos"
-          textButton="Cadastro"
+          content= "🏆Lista de produtos"
+          textButton="Produtos"
           onPress={ () => navigation.navigate('Produtos') }
         />
-    </View>
+        
+    </ScrollView>
   ) 
 } 
